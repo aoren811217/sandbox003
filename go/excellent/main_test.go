@@ -1,11 +1,8 @@
 package main
-
 import "testing"
 
-int a = 10
-
 func TestEvenOrOdd(t *testing.T) {
-	result := EvenOrOdd(10)
+	result := EvenOrOdd(20)
 	if result != "Even" {
 		t.Errorf("Expected 'Even', actual: %s", result)
 	}
