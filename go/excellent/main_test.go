@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-int a = 10;
+int a = 10
 
 func TestEvenOrOdd(t *testing.T) {
 	result := EvenOrOdd(10)
