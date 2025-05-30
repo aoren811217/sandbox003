@@ -9,6 +9,6 @@ jobs:
       - run: printenv | grep '_FUNC'
         env:
           CONTAINS_FUNC: ${{ contains('Hello', 'ell') }}
-          STARTS_WITH_FUNC: ${{ startWith('Hello', 'He') }}
+          STARTS_WITH_FUNC: ${{ startsWith('Hello', 'He') }}
           ENDS_WITH_FUNC: ${{ endsWith('Hello', 'lo') }}
           ZENZENKANKEINAI_FUNC: ${{ endsWith('Hello', 'lo') }}
