@@ -1,8 +1,8 @@
 package main
 
 import "testing"
-import "github.com/stretchr/testify/assert"
 
+int a = 10;
 
 func TestEvenOrOdd(t *testing.T) {
 	result := EvenOrOdd(10)
